@@ -1,0 +1,8 @@
+ALTER TABLE masters.opening_balance
+    ADD COLUMN IF NOT EXISTS vendor_id BIGINT,
+    ADD COLUMN IF NOT EXISTS dc_number VARCHAR(255),
+    ADD COLUMN IF NOT EXISTS dc_date DATE,
+    ADD COLUMN IF NOT EXISTS mill_inv_no VARCHAR(255),
+    ADD COLUMN IF NOT EXISTS mill_date DATE,
+    ADD COLUMN IF NOT EXISTS icil_inv_no VARCHAR(255),
+    ADD COLUMN IF NOT EXISTS icil_inv_date DATE;

@@ -1,2 +1,1 @@
-# mastexik-innovations-service
-Backend services for Textile Erp
+# composite_erp_server
